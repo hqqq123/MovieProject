@@ -1,0 +1,65 @@
+{% extends 'home/base.html' %}
+{#
+参考代码:
+    bootstrap媒体对象: https://v3.bootcss.com/components/#panels
+    bootstrap面板对象: https://v3.bootcss.com/components/#panels-heading
+
+#}
+
+{% block scripts %}
+    {{ super() }}
+    <script>
+        $(document).ready(function () {
+            $("#md-5").addClass('active');
+        });
+        {#var ue=UE.getEditor('')#}
+    </script>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid">
+        {% include 'home/usermenu.html' %}
+        <div class="col-lg-9">
+            <div class="panel panel-warning">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        <span class="glyphicon glyphicon-map-marker"></span>&nbsp;收藏电影
+                    </h3>
+                </div>
+                <div class="panel-body">
+
+                    {% for moviecollect in moviecollectsPageObj.items %}
+                        <div class="media" style="border: 1px solid lightgray; margin-top: 10px">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object"
+                                         src="/static/upload/userFaceImg/20190323_11270930ca91ef76c6a7ef6e9494def1faaf51f1de66f7.jpg"
+                                         alt="..."
+                                         style="width: 60px; height: 60px"
+                                    >
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">{{ moviecollect.movie.name }}
+                                    <a href="{{ url_for('home.play',id=moviecollect.movie.id) }}" class="label label-primary pull-right">
+                                        <span class="glyphicon glyphicon-play"></span>播放影片
+                                    </a>
+
+                                    <a href="{{ url_for('home.collect_del', id=moviecollect.movie.id) }}" class="label label-danger">取消收藏</a>
+
+                                </h4>
+                                {{ moviecollect.movie.info }}
+                            </div>
+
+                        </div>
+                    {% endfor %}
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {% import 'macro/pages.html' as pages %}
+
+    {{ pages.paginate(moviecollectsPageObj,'home.moviecollect') }}
+{% endblock %}
+

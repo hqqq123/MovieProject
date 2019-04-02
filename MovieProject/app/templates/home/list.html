@@ -1,0 +1,165 @@
+{% extends 'home/base.html' %}
+{% block title %}电影列表{% endblock %}
+{% block scripts %}
+    {{ super() }}
+    <script type="text/javascript" src="{{ url_for('static', filename='asset/ueditor/ueditor.config.js') }}"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="{{ url_for('static', filename='asset/ueditor/ueditor.all.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='asset/ueditor/lang/zh-cn/zh-cn.js') }}"></script>
+
+    <script>
+        var ue = UE.getEditor('input_content',
+            {
+                toolbars: [
+                    ['fullscreen', 'source', 'undo', 'redo', 'bold']
+                ],
+                autoHeightEnabled: true,
+                autoWidthEnabled: true,
+                autoFloatEnabled: true
+            });
+
+        $("#lastpage").click(function () {
+            alert('123');
+            {#var movie_id={{ movie.id }};#}
+            var page={{ moviesPageObj.pages }};
+            $.ajax({
+                url:"{{ url_for('home.index') }}",
+                type:"GET",
+                data:"page="+page,
+
+                dataType:"post",
+                success:function (res) {
+                    alert('1');
+                    if (res.ok == 1) {
+                        alert('ok');
+                    } else {
+                        alert('no');
+                    }
+                }
+                error:function () {
+                    alert('0');
+                }
+            })
+
+         });
+    </script>
+    <!--播放页面-->
+{% endblock %}
+{% block content %}
+
+    <div class="container-fluid">
+
+
+        {#  左侧菜单栏       #}
+        {% include 'home/usermenu.html' %}
+
+    <div>
+    <div class="col-lg-9">
+
+
+        {#   参考 路径导航:  https://v3.bootcss.com/components/#breadcrumbs           #}
+        <h1>微电影管理系统</h1>
+        <ol class="breadcrumb">
+            <li><a href="{{ url_for('admin.index') }}"><i class="fa fa-dashboard"></i> 首页</a></li>
+            <li><a href="{{ url_for('admin.movie_add') }}"><i class="fa fa-dashboard"></i> 电影管理</a></li>
+            <li><a href="{{ url_for('admin.movie_add') }}"><i class="fa fa-dashboard"></i> 添加电影</a></li>
+            <li><a href="{{ url_for('admin.movie_list') }}"><i class="fa fa-dashboard"></i> 电影列表</a></li>
+
+        </ol>
+
+
+        <div>
+            <div class="panel panel-default panel-info">
+                <div class="panel-heading">
+                    <h3 class="panel-title"><span class="glyphicon glyphicon-map-marker"></span>
+                        电影列表
+                    </h3>
+                </div>
+                <div class="panel-body">
+
+                    <br/>
+
+                    {#                   登录日志表格#}
+                    <table class="table table-bordered">
+                        <thead>
+                        <th>编号</th>
+                        <th>片名</th>
+                        <th>电影封面</th>
+                        <th>片长</th>
+                        <th>标签</th>
+                        <th>地区</th>
+                        <th>星级</th>
+                        <th>播放数量</th>
+                        <th>评论数量</th>
+                        <th>上映时间</th>
+                        <th>操作事项</th>
+                        </thead>
+                        <tbody>
+
+                        {% for movie in moviesPageObj.items %}
+                            <tr>
+                                <td>{{ movie.id }}</td>
+                                <td>{{ movie.name }}</td>
+                                <td>
+{#                                    <img src="{{ url_for('static', filename=app.config['MOVIE_LOGO_DIR']) + movie.logo }}" style="max-height: 30px">#}
+
+                                </td>
+                                <td>{{ movie.length }} 分钟</td>
+                                <td>{{ movie.tag.name }}</td>
+                                <td>{{ movie.area }}</td>
+                                <td>{{ movie.star }} 星</td>
+                                <td>{{ movie.comment_num }}</td>
+                                <td>{{ movie.play_num }}</td>
+                                <td>{{ movie.release_time }}</td>
+                                <td>
+                                    <a href="{{ url_for('home.collect_add', id=movie.id) }}" class="label label-success">收藏</a>
+                                    &nbsp;
+                                    <a href="{{ url_for('home.comment_add', id=movie.id) }}" class="label label-success">评论</a>
+                                    </td>
+                            </tr>
+                        {% endfor %}
+
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            <li>
+                <a id="firstpage" aria-label="First">
+                    <span aria-hidden="true">首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">上一页</span>
+                </a>
+            </li>
+            <li><a href="#">{{ moviesPageObj.page }}&nbsp;/&nbsp;{{ moviesPageObj.pages }}</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">下一页</span>
+                </a>
+            </li>
+            <li>
+                <a class="btn" id="lastpage" aria-label="Last">
+                    <span aria-hidden="true">尾页</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+{#    {% import 'macro/pages.html' as pages %}#}
+{##}
+{##}
+{#    {{ pages.paginate(moviesPageObj, 'home.movie_list') }}#}
+{% endblock %}
