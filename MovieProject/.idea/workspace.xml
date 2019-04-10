@@ -1,133 +1,500 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="501113a7-5b24-43ca-b24f-de6fcd51e773" name="Default Changelist" comment="" />
+    <list default="true" id="afaae800-db14-4379-b1c4-1e362d0cdf8b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../DjangoProject/DjangoProject/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/MovieProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MovieProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/movie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/preview.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/role.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/forms/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/auth.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/comment.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/movie.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/preview.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/role.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/admin/views/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/home/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/font-awesome/font/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/font-awesome/font/fontawesome-webfontd41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/font-awesome/font/fontawesome-webfontf77b.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/font-awesome/font/fontawesome-webfontf77b.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/font-awesome/font/fontawesome-webfontf77b.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/anchor/anchor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/attachment.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/attachment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/attachment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_chm.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_doc.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_exe.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_jpg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_mp3.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_mv.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_pdf.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_ppt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_psd.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_rar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_txt.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/fileTypeImages/icon_xls.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/alignicon.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/alignicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/file-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/attachment/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/background/background.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/background/background.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/background/background.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/background/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/background/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/chart.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/charts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/charts.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/charts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/images/charts0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/images/charts1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/images/charts2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/images/charts3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/images/charts4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/charts/images/charts5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/emotion.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/emotion.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/emotion.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/bface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/cface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/fface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/jxface2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/tface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/wface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/emotion/images/yface.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/gmap/gmap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/help/help.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/help/help.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/help/help.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/image.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/images/alignicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/image/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/insertframe/insertframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/internal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/link/link.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/map/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/map/show.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/music/music.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/music/music.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/music/music.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/preview/preview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/addimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/brush.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/delimg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/delimgH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/emptyH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/eraser.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/redo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/redoH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/scaleH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/size.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/undo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/images/undoH.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/scrawl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/scrawl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/scrawl/scrawl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/searchreplace/searchreplace.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/searchreplace/searchreplace.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/snapscreen/snapscreen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/spechars/spechars.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/spechars/spechars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/table/dragicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/table/edittable.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/table/edittable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/table/edittable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/table/edittd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/table/edittip.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/images/bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/images/pre0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/images/pre1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/images/pre2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/images/pre3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/images/pre4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/template.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/template/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/center_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/file-icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/file-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/left_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/none_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/progress.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/right_focus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/success.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/images/success.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/video.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/video/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/webapp/webapp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/wordimage/fClipboard_ueditor.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/wordimage/imageUploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/wordimage/tangram.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/wordimage/wordimage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/dialogs/wordimage/wordimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/jsp/config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/jsp/controller.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/jsp/lib/commons-codec-1.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/jsp/lib/commons-fileupload-1.3.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/jsp/lib/commons-io-2.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/jsp/lib/json.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/jsp/lib/ueditor-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/addimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/alldeletebtnhoverskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/alldeletebtnupskin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/deletedisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/deleteenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/listbackground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/rotateleftdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/rotateleftenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/rotaterightdisable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/rotaterightenable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/en/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/zh-cn/images/copy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/zh-cn/images/localimage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/zh-cn/images/music.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/zh-cn/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/lang/zh-cn/zh-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/css/ueditor.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/css/ueditor.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/dialogbase.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/anchor.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/arrow_down.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/arrow_up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/button-bg.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/cancelbutton.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/charts.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/cursor_h.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/cursor_h.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/cursor_v.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/cursor_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/dialog-title-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/filescan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/highlighted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/icons-all.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/icons.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/loaderror.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/lock.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/neweditor-tab-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/pagebreak.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/scale.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/sortable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/spacer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/sparator_v.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/table-cell-align.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/tangram-colorpicker.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/toolbar_bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/unhighlighted.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/upload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/videologo.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/word.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/default/images/wordpaste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/themes/iframe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/SyntaxHighlighter/shCore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/SyntaxHighlighter/shCoreDefault.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/codemirror/codemirror.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/codemirror/codemirror.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/adapters/mootools-adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/adapters/mootools-adapter.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/adapters/prototype-adapter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/adapters/prototype-adapter.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/adapters/standalone-framework.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/adapters/standalone-framework.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/highcharts-more.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/highcharts-more.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/highcharts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/highcharts.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/annotations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/annotations.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/canvas-tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/canvas-tools.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/data.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/drilldown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/drilldown.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/exporting.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/exporting.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/funnel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/funnel.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/heatmap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/heatmap.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/map.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/no-data-to-display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/modules/no-data-to-display.src.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/themes/dark-blue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/themes/dark-green.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/themes/gray.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/themes/grid.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/highcharts/themes/skies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/jquery-1.10.2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/jquery-1.10.2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/jquery-1.10.2.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/snapscreen/UEditorSnapscreen.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/font/vjs.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/font/vjs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/font/vjs.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/font/vjs.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/video-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/video-js.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/video-js.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/video.dev.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/video-js/video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/Uploader.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.flashonly.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.flashonly.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.html5only.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.html5only.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.withoutimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/webuploader/webuploader.withoutimage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/xss.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/zeroclipboard/ZeroClipboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/zeroclipboard/ZeroClipboard.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/third-party/zeroclipboard/ZeroClipboard.swf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/ueditor.all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/ueditor.all.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/ueditor.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/ueditor.parse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/asset/ueditor/ueditor.parse.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/bootstrap-reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/style-responsive.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/Descr.WD3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.eot@" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/fonts/glyphicons-halflings-regulard41d.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/404_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/500_icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/Descr.WD3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/arrow-up.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/avatar-mini.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/avatar-mini2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/avatar-mini3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/avatar-mini4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/avatar1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/avatar1_small.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/chart-texture.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/chat-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/chat-avatar2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/checkbox/Descr.WD3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/checkbox/check-off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/checkbox/check-on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/checkbox/radio-off.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/checkbox/radio-on.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/customSelect-arrow.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/favicon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/follower-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/left-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/mail-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/pro-ac-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/pro-ac-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/product1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/product2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/product3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/profile-avatar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/right-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/ring.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/search-icon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/sm-img-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/sm-img-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/sm-img-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/img/vector-lab.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/all-chartjs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap-switch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/common-scripts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/dynamic-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/easy-pie-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/echarts.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/external-dragging-calendar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/form-component.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/form-validation-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/ga.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/gritter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery-1.8.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery-ui-1.9.2.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.customSelect.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.nicescroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.scrollTo.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.sparkline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.stepy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.tagsinput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/morris-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/sliders.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/js/sparkline-chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/movieFile/20190324_15395101_videos.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/movieFile/20190324_171102201807191626189cfe3056f35b4539ba6d3495a985e126.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/movieLogoImg/Screenshot from 2019-02-22 11-05-42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/movieLogoImg/Screenshot from 2019-02-22 11-09-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/movieLogoImg/初恋这件小事7ed07b8ea8c0e0d0c7b685d20e3ec64e232004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/movieLogoImg/千与千寻b076ce63e9860ecf1ee9839badee5228329384.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/previewLogoImg/20190328_171607_Screenshot from 2019-02-22 11-11-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/previewLogoImg/20190328_173235_Screenshot from 2019-02-22 11-09-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/previewLogoImg/20190401_140747_Screenshot from 2019-02-22 09-51-43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/previewLogoImg/20190401_140933_Screenshot from 2019-02-22 11-02-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/userFaceImg/20190328_201612_Screenshot from 2019-02-22 11-09-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/userFaceImg/20190328_201815_Screenshot from 2019-02-22 11-09-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/static/upload/userFaceImg/timg.jpg_20190326_143801" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/admin/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/admin/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/admin/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/aside.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/auth/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/auth/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/auth/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/comment/comment_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/logs/admin_log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/logs/operate_log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/logs/user_log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/movie/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/movie/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/movie/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/preview/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/preview/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/preview/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/role/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/role/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/role/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/tag/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/tag/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/tag/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/user/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/admin/user/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/comment_add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/comment_list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/moviecollect.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/play.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/pwd.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/user.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/user_log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/userlog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/home/usermenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/macro/pages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySpider/mySpider/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySpider/mySpider/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySpider/mySpider/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySpider/mySpider/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySpider/mySpider/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySpider/mySpider/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySpider/mySpider/spiders/douban.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mySpider/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MovieProject$test.coverage" NAME="test Coverage Results" MODIFIED="1554097660361" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/home/play.html">
+        <entry file="file://$PROJECT_DIR$/MovieProject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/home/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1004">
-              <caret line="196" column="15" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <element signature="e#533#1271#0" />
-                <element signature="e#1341#2831#0" />
-                <element signature="e#2898#3017#0" />
-                <element signature="e#3080#5189#0" />
-                <element signature="e#5250#5997#0" />
-                <element signature="e#6088#6296#0" />
-                <element signature="e#6383#6582#0" />
-                <element signature="e#6684#6994#0" />
-                <element signature="e#7477#7636#0" />
-                <element signature="e#7699#8021#0" />
-                <element signature="e#8085#8290#0" />
-                <element signature="e#8377#8807#0" />
-                <element signature="e#8909#9126#0" />
-                <element signature="e#9190#9351#0" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/home/list.html">
+        <entry file="file://$PROJECT_DIR$/MovieProject/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            <state relative-caret-position="44">
+              <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/admin/views/movie.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1562">
-              <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/home/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1232">
-              <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#264#512#0" />
-                <element signature="e#1483#2245#0" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/MovieProject/urls.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Flask Main" />
-        <option value="HTML File" />
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>'home.comments'</find>
-      <find>commentsPageObj</find>
-      <find>user</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>ViewFun</replace>
-      <replace>PageObj</replace>
-      <replace>admin</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -135,65 +502,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/admin/views/role.py" />
-        <option value="$PROJECT_DIR$/app/admin/forms/tag.py" />
-        <option value="$PROJECT_DIR$/app/admin/views/tag.py" />
-        <option value="$PROJECT_DIR$/app/admin/forms/preview.py" />
-        <option value="$PROJECT_DIR$/app/admin/forms/admin.py" />
-        <option value="$PROJECT_DIR$/app/templates/admin/user/list.html" />
-        <option value="$PROJECT_DIR$/app/admin/views/user.py" />
-        <option value="$PROJECT_DIR$/app/admin/forms/user.py" />
-        <option value="$PROJECT_DIR$/app/admin/views/preview.py" />
-        <option value="$PROJECT_DIR$/app/admin/forms/movie.py" />
-        <option value="$PROJECT_DIR$/app/models.py" />
-        <option value="$PROJECT_DIR$/app/home/forms.py" />
-        <option value="$PROJECT_DIR$/app/templates/home/comment_add.html" />
-        <option value="$PROJECT_DIR$/app/templates/home/comment_list.html" />
-        <option value="$PROJECT_DIR$/app/templates/home/base.html" />
-        <option value="$PROJECT_DIR$/app/templates/home/comments.html" />
-        <option value="$PROJECT_DIR$/app/admin/views/comment.py" />
-        <option value="$PROJECT_DIR$/app/templates/admin/movie/add.html" />
-        <option value="$PROJECT_DIR$/app/admin/__init__.py" />
-        <option value="$PROJECT_DIR$/app/admin/views/log.py" />
-        <option value="$PROJECT_DIR$/app/templates/admin/logs/admin_log.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/logs/user_log.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/logs/operate_log.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/aside.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/login.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/base.html" />
-        <option value="$PROJECT_DIR$/app/admin/views/main.py" />
-        <option value="$PROJECT_DIR$/app/admin/views/admin.py" />
-        <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/app/admin/utils.py" />
-        <option value="$PROJECT_DIR$/app/admin/views/auth.py" />
-        <option value="$PROJECT_DIR$/app/templates/admin/movie/list.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/preview/add.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/preview/edit.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/preview/list.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/admin/add.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/admin/list.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/admin/edit.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/auth/add.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/auth/edit.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/auth/list.html" />
-        <option value="$PROJECT_DIR$/app/templates/admin/comment/comment_list.html" />
-        <option value="$PROJECT_DIR$/mySpider/mySpider/items.py" />
-        <option value="$PROJECT_DIR$/mySpider/mySpider/settings.py" />
-        <option value="$PROJECT_DIR$/mySpider/mySpider/spiders/douban.py" />
-        <option value="$PROJECT_DIR$/app/admin/views/movie.py" />
-        <option value="$PROJECT_DIR$/app/home/views.py" />
-        <option value="$PROJECT_DIR$/app/templates/home/moviecollect.html" />
-        <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/app/templates/home/play.html" />
-        <option value="$PROJECT_DIR$/app/templates/home/list.html" />
+        <option value="$PROJECT_DIR$/MovieProject/settings.py" />
+        <option value="$PROJECT_DIR$/MovieProject/__init__.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="432" />
-    <option name="y" value="30" />
-    <option name="width" value="969" />
-    <option name="height" value="704" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="683" />
+    <option name="y" value="28" />
+    <option name="width" value="684" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -211,31 +529,7 @@
             <path>
               <item name="MovieProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="MovieProject" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MovieProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="MovieProject" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MovieProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieProject" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MovieProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mySpider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MovieProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MovieProject" type="462c0819:PsiDirectoryNode" />
-              <item name="mySpider" type="462c0819:PsiDirectoryNode" />
-              <item name="mySpider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,23 +539,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/templates/admin" />
-      <recent name="$PROJECT_DIR$/app/templates/admin/comment" />
-      <recent name="$PROJECT_DIR$/app/templates/home" />
-      <recent name="$PROJECT_DIR$/app/admin/views" />
-      <recent name="$PROJECT_DIR$/app/templates/admin/admin" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -275,8 +555,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration name="MovieProject" type="Python.DjangoServer" factoryName="Django server">
       <module name="MovieProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -284,514 +564,84 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MovieProject" type="Python.FlaskServer" factoryName="Flask server">
-      <module name="MovieProject" />
-      <option name="target" value="$PROJECT_DIR$/manager.py" />
-      <option name="targetType" value="PATH" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="501113a7-5b24-43ca-b24f-de6fcd51e773" name="Default Changelist" comment="" />
-      <created>1553484606956</created>
+      <changelist id="afaae800-db14-4379-b1c4-1e362d0cdf8b" name="Default Changelist" comment="" />
+      <created>1554875484146</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553484606956</updated>
-      <workItem from="1553484608314" duration="10204000" />
-      <workItem from="1553512499386" duration="10410000" />
-      <workItem from="1553559741564" duration="27448000" />
-      <workItem from="1553689942800" duration="8970000" />
-      <workItem from="1553738905519" duration="36144000" />
-      <workItem from="1553839409463" duration="7239000" />
-      <workItem from="1553858213181" duration="10406000" />
-      <workItem from="1554082645490" duration="19387000" />
-      <workItem from="1554113326165" duration="8700000" />
-      <workItem from="1554168678220" duration="4574000" />
-      <workItem from="1554191606352" duration="852000" />
-      <workItem from="1554192725966" duration="1076000" />
-      <workItem from="1554195231956" duration="3365000" />
+      <updated>1554875484146</updated>
+      <workItem from="1554875487683" duration="255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148775000" />
+    <option name="totallyTimeSpent" value="255000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="28" width="1368" height="707" extended-state="7" />
+    <frame x="-1" y="28" width="1368" height="707" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.337386" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="1" sideWeight="0.49712312" visible="true" weight="0.05357143" />
-      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5028769" side_tool="true" weight="0.44364938" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info anchor="bottom" id="Python Console" order="4" />
-      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" weight="0.32857144" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49924013" weight="0.45259392" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" weight="0.32978722" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="SciView" order="2" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.63928574" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/home/userlog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="17" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-523" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/comment_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="42" column="14" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="42" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/comments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="33" column="69" selection-start-line="33" selection-start-column="69" selection-end-line="33" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="52" column="31" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="52" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/forms/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/movie/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/aside.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2266">
-          <caret line="103" column="17" selection-start-line="103" selection-start-column="17" selection-end-line="103" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/logs/user_log.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/forms/__init__.py">
+    <entry file="file://$PROJECT_DIR$/MovieProject/urls.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/logs/operate_log.html">
+    <entry file="file://$PROJECT_DIR$/MovieProject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="76">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/login.html">
+    <entry file="file://$PROJECT_DIR$/MovieProject/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="50" column="47" selection-start-line="50" selection-start-column="47" selection-end-line="50" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/logs/admin_log.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="39" column="17" lean-forward="true" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#77#0" expanded="true" />
-            <element signature="e#351#1107#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="34" column="87" lean-forward="true" selection-start-line="34" selection-start-column="87" selection-end-line="34" selection-end-column="87" />
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-541">
-          <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/preview/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/preview/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/movie/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/forms/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/preview/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="74" column="4" lean-forward="true" selection-start-line="74" selection-start-column="4" selection-end-line="75" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/admin/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/admin/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="72" selection-start-line="72" selection-end-line="73" selection-end-column="67" />
-          <folding>
-            <element signature="e#2528#2534#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/auth/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/auth/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/auth/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="56" selection-start-line="56" selection-end-line="57" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/comment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/comment/comment_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/forms/movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/admin/admin/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-165">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <element signature="e#733#1476#0" />
-            <element signature="e#2001#2109#0" />
-            <element signature="e#2137#2366#0" />
-            <element signature="e#2397#2622#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mySpider/mySpider/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mySpider/mySpider/spiders/douban.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="77" selection-start-line="18" selection-start-column="77" selection-end-line="18" selection-end-column="77" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mySpider/mySpider/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="83" selection-start-line="19" selection-start-column="83" selection-end-line="19" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mySpider/mySpider/pipelines.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/macro/pages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/moviecollect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="75" selection-start-line="11" selection-start-column="75" selection-end-line="11" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/views/movie.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="71" column="33" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="196" column="15" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <element signature="e#533#1271#0" />
-            <element signature="e#1341#2831#0" />
-            <element signature="e#2898#3017#0" />
-            <element signature="e#3080#5189#0" />
-            <element signature="e#5250#5997#0" />
-            <element signature="e#6088#6296#0" />
-            <element signature="e#6383#6582#0" />
-            <element signature="e#6684#6994#0" />
-            <element signature="e#7477#7636#0" />
-            <element signature="e#7699#8021#0" />
-            <element signature="e#8085#8290#0" />
-            <element signature="e#8377#8807#0" />
-            <element signature="e#8909#9126#0" />
-            <element signature="e#9190#9351#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/home/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1232">
-          <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-            <element signature="e#264#512#0" />
-            <element signature="e#1483#2245#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/play.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="25" column="15" lean-forward="true" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        <state relative-caret-position="44">
+          <caret line="2" column="28" lean-forward="true" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
